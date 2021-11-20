@@ -18,13 +18,13 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
-const ALCHEMY_API_KEY = "1SEtOAKozBe52_kovK51d5fM5kuL9yt4";
+const ALCHEMY_API_KEY = "<your alchemy token>";
 
 // Replace this private key with your Ropsten account private key
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
-const KOVAN_PRIVATE_KEY = "01648c840511a5c6d513a73a3392562f03ac654ec47a94ef20cc0fc059df8313";
+const KOVAN_PRIVATE_KEY = "your wallet priv key";
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
